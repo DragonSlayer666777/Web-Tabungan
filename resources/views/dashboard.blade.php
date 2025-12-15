@@ -52,7 +52,7 @@
                                 {{-- Gambar Target --}}
                                 
                                 @if($target->image)
-                                    <img src="{{asset('/storage' . $target->image)}}" 
+                                    <img src="{{asset('storage/' . $target->image)}}" 
                                         alt="{{ $target->name }}"
                                         class="w-full h-48 object-cover rounded-t-3xl group-hover:scale-110 transition duration-500">
                                 @else

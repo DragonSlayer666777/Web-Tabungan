@@ -26,7 +26,7 @@ class SavingController extends Controller
             'target_amount' => 'required|numeric|min:1',
             'frequency' => 'required|in:daily,weekly,monthly',
             'min_amount' => 'required|numeric|min:1',
-            'image' => 'nullable|image|mimes:jpg,jpeg,png|max:1000000',
+            'image' => 'nullable|image|mimes:jpg,jpeg,png|max:2048',
             'description' => 'nullable|string',
         ]);
 

@@ -22,7 +22,7 @@ class Notification extends Model
 
     protected $casts = [
         'is_read' => 'boolean',
-        'data'    => 'array',     // otomatis jadi array di PHP
+        'data'    => 'array',     
         'read_at' => 'datetime',
     ];
 
